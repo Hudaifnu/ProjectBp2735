@@ -3,12 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentScience">
+    android:background="#FF00FFFF"
+    android:visibility="visible"
+    tools:context=".FragmentScience"
+    tools:visibility="visible">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment Science"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="351dp"
         android:layout_height="match_parent"
-        android:text="Fragment Science" />
 
 </FrameLayout>
